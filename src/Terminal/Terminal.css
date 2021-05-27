@@ -1,0 +1,54 @@
+.terminal-body{
+    /* min-height: 250px;
+    max-height: 250px !important; */
+}
+
+.window-body{
+    border-radius: 0px 0px 15px 15px ;
+    /* overflow-y: scroll; */
+    min-height: 260px;
+    /* font-size: 1.35em; */
+}
+
+.titlebar{
+    border-radius: 10px 10px 0px 0px ;
+}
+
+.container-fluid {
+	overflow:hidden;
+	}
+.container span {
+	display:inline-block;
+	*float:left;
+	}
+
+/*  Scrollbar */
+
+.window-body::-webkit-scrollbar {
+    width: 20px;
+}
+  
+.window-body::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+  
+.window-body::-webkit-scrollbar-thumb {
+    background-color: #929a9c;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+  
+.window-body::-webkit-scrollbar-thumb:hover {
+    background-color: #313435;
+}
+
+.row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.navbar-brand{
+    max-width: 20%;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,22 @@
+.listPair{
+    font-size: 1.2em;
+}
+
+.listParent{
+    font-size: 1.2em;
+}
+.listTitleItem{
+    border-left: 5px solid white !important;
+
+}
+
+.listValueItem{
+    text-align: center;
+
+}
+
+.divider{
+    font-size: .95em;
+    border-bottom: 2px solid white !important;
+    padding: 5px;
+}
