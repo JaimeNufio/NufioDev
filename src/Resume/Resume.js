@@ -128,8 +128,8 @@ const resume = (props) =>{
           {education.map((arr) => (
             <div className="pb-2 px-3 pt-3">
             <div className="row">
-              <div className="col-sm-5 col-md-4 col-xl-2 mb-3 text-center">
-                      <img alt="" src="https://web.njit.edu/~hou/My_NJIT_Website//NJIT.png"
+              <div className="col-xs-2 col-md-4 col-lg-2 mb-3 text-center">
+                      <img alt="" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/New_Jersey_IT_seal.svg/1200px-New_Jersey_IT_seal.svg.png"
                         style={{
                           "backgroundColor":'#FFF',
                           "maxWidth":"100%",
@@ -143,7 +143,7 @@ const resume = (props) =>{
                       ></img>
 
               </div>
-              <div className="col-sm-7 col-md-8 col-xl-10 float-left">
+              <div className="col-xs-2 col-md-8 col-xl-10 float-left">
                 <div>
                   <h2 className="m-0">{arr['degree']}</h2>
                   <h5>{arr['school']}</h5>

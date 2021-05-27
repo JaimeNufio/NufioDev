@@ -20,7 +20,7 @@ const items = [
         "app": "Github",
         "text": "Leveraging of a Facebook library (fasttext) for sentiment analysis of Magic the Gathering cards for color-pie classification of custom fan cards.",
         "title": "MTGAI",
-        "icon": "fab fa-hat-wizard",
+        "icon": "fas fa-hat-wizard",
         "link": "https://github.com/JaimeNufio/MTGAI"
     },
     {

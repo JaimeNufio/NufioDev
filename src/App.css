@@ -106,3 +106,7 @@
   background: rgb(0,0,0);
   background: linear-gradient(180deg, rgba(0,0,0,1) 50%, rgba(50,50,50,1) 92%);
 }
+
+.intro{
+  background-color: rgb(88, 102, 141);
+}

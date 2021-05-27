@@ -3,12 +3,10 @@ import './Terminal.css';
 
 const terminal = (props) =>{
     return (
-        <div >
+        <div className="bucket">
             <div className="titlebar less-black">
-                <div className="py-1 " style={{"paddingLeft":"15px"}}>
-                    <span className="navbar-brand" href="#">
-                    <i className={props.icon+" "} style={{"paddingRight":"15px"}}></i>{props.title}
-                    </span>
+                <div className="py-1" style={{"paddingLeft":"15px","fontSize":"1.2em"}}>
+                    <span className="title-span mt-2 " ><i className={props.icon+" "} style={{"paddingRight":"15px"}}></i>{props.title}</span>
                     <span className="navbar-text " style={{"float":"right","paddingRight":"15px"}}>
                         <i className="fas fa-fw fa-circle" style={{"color":"red"}}></i>
                         <i className="fas fa-fw fa-circle" style={{"color":"orange"}}></i>

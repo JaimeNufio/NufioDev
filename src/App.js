@@ -29,9 +29,28 @@ class App extends Component {
    return (
       <div>
 
-        <Navbar name="Jaime Nufio" ></Navbar>
+        <Navbar name="Jaime Nufio" >
 
-        <div className="">
+        {/* <div className="">
+          <ul className="nav nav-tabs" id="myTab" role="tablist">
+            <li className="nav-item" role="presentation">
+                <button className="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Projects</button>
+            </li>
+            <li className="nav-item" role="presentation">
+                <button className="nav-link " id="skill-tab" data-bs-toggle="tab" data-bs-target="#skill" type="button" role="tab" aria-controls="skill" aria-selected="true">Skills</button>
+            </li>
+            <li className="nav-item" role="presentation">
+              <button className="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="false">Experience</button>
+            </li>
+            <li className="nav-item" role="presentation">
+              <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Interactable</button>
+            </li>
+          </ul>
+        </div> */}
+
+        </Navbar>
+
+        <div className="intro">
           <div className="container">
             <div className="row">
 
@@ -53,22 +72,7 @@ class App extends Component {
 
         {/* <p className="divider"></p> */}
         
-        <div className="container">
-          <ul className="nav nav-tabs" id="myTab" role="tablist">
-            <li className="nav-item" role="presentation">
-                <button className="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Projects</button>
-            </li>
-            <li className="nav-item" role="presentation">
-                <button className="nav-link " id="skill-tab" data-bs-toggle="tab" data-bs-target="#skill" type="button" role="tab" aria-controls="skill" aria-selected="true">Skills</button>
-            </li>
-            <li className="nav-item" role="presentation">
-              <button className="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="false">Experience</button>
-            </li>
-            <li className="nav-item" role="presentation">
-              <button className="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Interactable</button>
-            </li>
-          </ul>
-        </div>
+      
 
         <div className="tab-content" id="myTabContent">
           <div className="tab-pane fade active show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
