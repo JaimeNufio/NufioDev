@@ -18,7 +18,7 @@ const items = [
         "heading":"MTG Sentiment Analysis",
         "thumb": "/assets/mtg.png",
         "app": "Github",
-        "text": "Leveraging of a Facebook library (fasttext) for sentiment analysis of Magic the Gathering cards for color-pie classification of custom fan cards.",
+        "text": "Sentiment analysis of Magic the Gathering cards for color-pie classification of custom fan cards.",
         "title": "MTGAI",
         "icon": "fas fa-hat-wizard",
         "link": "https://github.com/JaimeNufio/MTGAI"
@@ -27,7 +27,7 @@ const items = [
         "heading":"Playlist Organizer for Spotify",
         "thumb": "/assets/Nufio.png",
         "app": "Youtube",
-        "text": "Multi-featured application for organizing your Spotify Playlists, understanding your music, artists, and discovering new artists.",
+        "text": "Multi-featured application for organizing your Spotify Playlists and discovering music and artists.",
         "title": "Spotify Multitool",
         "icon": "fab fa-spotify",
         "link": "https://www.youtube.com/watch?v=o8D2g7Zujis"
@@ -46,7 +46,7 @@ const items = [
         "heading":"Music Visualizer for Spotify",
         "thumb": "/assets/musicvisualizer.png",
         "app": "Youtube",
-        "text": "Music visualizer based on data from the Spotify API. Additionally, the app shows extra data such as how danceable the current song is.",
+        "text": "Music visualizer based on data from the Spotify API.",
         "title": "Spotify Visualizer",
         "icon": "fab fa-spotify",
         "link": "https://www.youtube.com/watch?v=HZkfDTDCeXs"
@@ -77,6 +77,7 @@ const project = (props) =>{
         <div className=" mt-3 p-2 container">
             <div className="row">
                {items.map((arr) => (
+                   
                     <ProjectItem items={arr}>
                     </ProjectItem>
                ))}

@@ -46,7 +46,9 @@ a.text-on-image:hover {
 }
 
 .round-bottom{
+    overflow: hidden;
+    overflow-y: scroll !important;
     border-radius: 0 0 25px 25px !important;
-    overflow: hidden !important;
+
 }
 

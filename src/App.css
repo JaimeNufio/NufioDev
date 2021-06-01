@@ -1,11 +1,4 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
 
 .App-header {
   background-color: #222;
@@ -62,24 +55,32 @@
   background-color: rgb(144, 144, 204);
 }
 
-.nav-link{
-  color:white;
+
+.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+  border: none;
+  border-radius: 25px !important;
+  margin-bottom: 0px !important;
 }
 
-.nav-link.active{
-  background-color: white !important;
-  border-color: white !important;
-  color: rgb(88, 102, 141) !important;
+.active{
+  color: black;
+  border-radius: 25px !important;
 }
 
-.nav.nav-tabs{
-  border-color: white !important;
+.nav-tabs .nav-link{
+  color: white;
+  border-width: 0px !important;
+  border-color: rgba(0,0,0,0) !important;
+  border-radius: 25px !important;
+  margin-bottom: 0px !important;
+  text-align: left;
 }
 
-/* .divider{
-   border-bottom: rgb(230, 223, 205);
-   border-width: 5px;
-} */
+.nav-tabs{
+  text-align: left;
+  border: none;
+}
+
 
 /* Logo */
 
@@ -108,5 +109,87 @@
 }
 
 .intro{
-  background-color: rgb(88, 102, 141);
+
+}
+
+.intro-container{
+  border-radius: 25px;
+  /* background-color: rgb(88, 102, 141); */
+}
+
+.full{
+  width: 100% !important;
+}
+
+.drop-shadow{
+  filter: drop-shadow(3px 3px rgba(0,0,0,.4));
+}
+
+.drop-shadow-text{
+  filter: drop-shadow(3px 3px rgba(0,0,0,.4));
+}
+
+.drop-shadow-text-small{
+  filter: drop-shadow(1px 2px rgba(0,0,0,.4));
+}
+
+.force-right{
+  float: right !important;
+}
+
+.everything{
+  margin: 0;
+
+}
+
+.intro{
+  /* background-color: #3c5c8f !important; */
+
+  background: rgb(27,27,113);
+  background: linear-gradient(180deg, rgba(27,27,113,1) 0%, rgba(156,28,65,1) 85%);
+}
+
+.contents{
+  background: rgb(55,55,158);
+  background: linear-gradient(180deg, rgba(55,55,158,1) 0%, rgba(84,16,125,1) 85%);
+  margin: 0;  
+}
+
+svg{
+  display: block !important;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #555; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fdfdfd; 
 }
