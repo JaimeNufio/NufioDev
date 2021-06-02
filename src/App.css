@@ -145,8 +145,8 @@
 .intro{
   /* background-color: #3c5c8f !important; */
 
-  background: rgb(27,27,113);
-  background: linear-gradient(180deg, rgba(27,27,113,1) 0%, rgba(156,28,65,1) 85%);
+  background: rgb(51,50,50);
+  background: linear-gradient(180deg, rgba(51,50,50,1) 0%, rgba(15,32,117,1) 95%);
 }
 
 .contents{

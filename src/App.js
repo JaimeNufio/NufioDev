@@ -21,7 +21,7 @@ class App extends Component {
   render() {
 
    const title = {
-     title:"$ \"Hello World!\"",
+     title:"Jaime Nufio",
      text:"Hey! My name is Jaime Nufio. "+
      "I'm currently a graduate student at NJIT, and a full time developer at ADP. "+
      "Programming has always been a passion first, and I've built this "+
@@ -40,11 +40,11 @@ class App extends Component {
           <div className="container px-5 pt-5">
             <div className="row">
 
-              <div className="logo-container col-md-4 col-sm-12 ">
+              {/* <div className="logo-container col-md-4 col-sm-12 ">
                 <img className="logo w-100" src={process.env.PUBLIC_URL+'/assets/icon.gif'} alt="Icon"/>
-              </div>
+              </div> */}
 
-              <div className="logo-container col-md-8 col-sm-12">
+              <div className="logo-container col-md-12 col-sm-12">
                 <Introduction className="full" socials="5"  title={title['title']}>
                   <hr></hr>
                   <div className="">
@@ -65,7 +65,7 @@ class App extends Component {
         </div>
 
         {/* Default */}
-        <SwooshAlt className="bounce" topColor={"#9c1c41"} bottomColor={"#37379e"}></SwooshAlt>
+        <SwooshAlt className="bounce" topColor={"rgba(15,32,117,1)"} bottomColor={"#37379e"}></SwooshAlt>
         
         {/* <Swoosh className="bounce" topColor={"#9c1c41"} bottomColor={"#fff"}></Swoosh>
         <Swoosh className="bounce" topColor={"#fff"} bottomColor={"#37379e"}></Swoosh> */}
@@ -111,7 +111,7 @@ class App extends Component {
                   <Resume></Resume>
                   </div>
                   <div className="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-
+                    <div style={{"minHeight":"1000px"}}></div>
                   </div>
                 </div>
               </div>
